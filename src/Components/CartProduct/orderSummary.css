@@ -1,0 +1,14 @@
+.orderSummary__parentContainer {
+  padding: 1vw;
+  box-shadow: 6px 4px 8px;
+}
+.orderSummary__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.orderSummary__checkOutButtonContainer {
+  display: flex;
+  justify-content: center;
+}

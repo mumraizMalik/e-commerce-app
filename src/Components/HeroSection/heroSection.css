@@ -1,0 +1,32 @@
+.hero__parentContainer {
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hero__box1 {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  /* height: 200px; */
+  min-width: 300px;
+}
+.hero__box1 img {
+  width: 100%;
+  /* height: fit-content; */
+}
+.hero__box2 {
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 300px;
+}
+.hero__ShopNowButton {
+  display: flex;
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}

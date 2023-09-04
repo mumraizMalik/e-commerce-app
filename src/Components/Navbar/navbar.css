@@ -1,0 +1,39 @@
+.parentContainer {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  margin-bottom: 2vh;
+}
+.box1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box2 {
+  flex: 2;
+  justify-content: center;
+  text-align: center;
+}
+
+.box3 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a:active {
+  opacity: 50%;
+}
+Link:active {
+  opacity: 50%;
+}
+img:active {
+  opacity: 50%;
+}

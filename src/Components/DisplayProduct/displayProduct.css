@@ -1,0 +1,32 @@
+.displayProduct__parentContainer {
+  padding: 0px 4px 0px 4px;
+}
+.displayProducts__Filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.displayProducts__filter_SubContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mapListParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+}
+.imageContainer {
+  flex-basis: 25%;
+  margin-right: 2px;
+  /* margin-bottom: 8px;  */
+  padding: 1vw;
+  width: 20vw;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
