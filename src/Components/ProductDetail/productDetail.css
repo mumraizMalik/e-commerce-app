@@ -12,6 +12,7 @@
 }
 .detail__box1__Image {
   width: 100%;
+  aspect-ratio: 1/1;
 }
 .detail__box2 {
   display: flex;

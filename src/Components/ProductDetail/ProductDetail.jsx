@@ -40,17 +40,7 @@ const ProductDetail = () => {
       className="detail__parentContainer"
       style={{ backgroundColor: theme.white }}
     >
-      <div
-        // ref={targetRef}
-        // style={{
-        //   backgroundImage: `url(${data?.image})`,
-        //   width: "300px",
-        //   height: imageWidth ? imageWidth : "300px",
-        //   backgroundRepeat: "no-repeat",
-        //   backgroundSize: "cover",
-        // }}
-        className="detail__box1"
-      >
+      <div className="detail__box1">
         <img
           className="detail__box1__Image"
           src={data?.image}

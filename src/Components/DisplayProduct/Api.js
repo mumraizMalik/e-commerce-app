@@ -5,7 +5,6 @@ const getAllProduct = (setList, getCategoryForDropDown) => {
       setList(json);
 
       getCategoryForDropDown(json);
-      console.log("json", json);
     })
     .catch((e) => {
       console.log(e);

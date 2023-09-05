@@ -100,11 +100,10 @@ const MapList = ({ list }) => {
             loading="lazy"
             src={item.image}
             style={{
+              aspectRatio: 1 / 1,
               width: "100%",
               minWidth: "200px",
-              minHeight: "200px",
               objectFit: "fill",
-              height: "18vw",
             }}
           />
           <div
